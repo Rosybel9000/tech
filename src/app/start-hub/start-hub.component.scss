@@ -1,0 +1,21 @@
+#hub{
+    width: -95%;
+    border: aqua solid;
+    .wrap{
+        //height: 50rem;
+        display: flex;
+    }
+    .scroller {
+        width: 30rem;
+        height: 15rem;
+        overflow-x: scroll;
+        //overflow-y: scroll;
+        scrollbar-width: thin;
+        border: aqua solid;
+      }
+    background-color: green;
+}
+
+//#hub-stop{
+
+//}
