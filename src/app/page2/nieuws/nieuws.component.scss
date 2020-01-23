@@ -1,0 +1,159 @@
+.tech_samenwerking{
+
+    text-align: center;
+    img {
+        padding: 0 1rem;
+    }
+    // display: flex;
+    // justify-content: space-between;
+}
+
+.tech_titelwerking{
+  text-align: center;
+  font-size: 0.8rem;
+  font-weight: bolder;
+}
+.tech_samenwerking__logo{
+    height: 3rem;
+    
+}
+
+.active{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.carousel-control-prev-icon{
+ 
+   height: 1.5rem;
+   width: 1.5rem;
+}
+.carousel-control-next-icon{
+  
+       height: 1.5rem;
+   width: 1.5rem;
+}
+
+.carousel-control-prev{
+   
+        background: linear-gradient(to right, #41E25F, #7FB38E);
+           height: 10.5rem;
+        width: 8.5rem;
+    }
+
+
+.carousel-control-next{
+     background: linear-gradient(to right, #41E25F, #7FB38E);
+     height: 10.5rem;
+        width: 8.5rem;
+        margin: 0;
+}
+
+
+
+.techground_achter{
+ 
+        background: linear-gradient(to right, #41E25F, #7FB38E);
+}
+.tech_tekst{
+   background: linear-gradient(to right, #41E25F, #7FB38E);
+   background-clip: text;
+   color: transparent;
+}
+
+.tech_molengeek{
+    margin-left: 0.5rem;
+    width: 4rem;
+}
+.tech_nieuws{
+    text-align: center;
+    color: rgb(160, 152, 152);
+}
+.d-block{
+
+    height: 8rem;
+}
+.tech_nieuws2{
+
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.tech__missie{
+
+    margin: 2rem;
+   padding: 2rem;
+}
+
+.tech_video{
+width: 31.25rem;
+height: 18.75rem;
+}
+
+
+
+
+@media(max-width: 1250px){
+    .flex {
+        flex-direction: column;
+        font-size: 30px;
+        margin-right:0;
+    }
+
+ .tech{
+    font-size: 2rem;
+
+
+}
+ .col-md-6, .col-7 {
+     max-width: 100%;
+ }
+}
+@media (max-width:1190px) { 
+.tech_video{
+        max-width: 98%;
+         height: 98%;
+
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+@media (max-width:500px) {
+  
+    .tech{
+    font-size: 1.4rem;
+
+
+}
+}
+
+@media only screen and (max-width: 400px) and (min-width: 80px) { 
+
+
+    .tech{
+    font-size: 1.3rem;
+    width: 18rem;
+}
+
+}
+
