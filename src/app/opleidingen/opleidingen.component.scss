@@ -1,0 +1,51 @@
+.opleidingen__title {
+    background: linear-gradient(to right, #41E25F, #7FB38E);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.opleidingen__icon {
+    background: linear-gradient(to right, #41E25F, #7FB38E);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-right: 0.5rem;
+}
+
+.opleidingen__aws {
+    padding: 10px;
+    box-shadow: 0px 0px 7px 5px rgba(65, 226, 95, 1);
+}
+
+.opleidingen__fullstack {
+    padding: 10px;
+
+    box-shadow: 0px 0px 7px 5px rgba(65, 226, 95, 1);
+}
+
+.opleidingen__subtitle {
+    font-weight: bold;
+
+    i {
+        color: rgb(122, 211, 147);
+        background-color: lightgray;
+        border-radius: 50%;
+        padding: 5px;
+    }
+}
+
+.accordion {
+    margin-top: 3rem;
+
+    img {
+        height: 2rem;
+    }
+
+}
+
+.card-header {
+    text-align: center;
+}
