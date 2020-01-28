@@ -5,12 +5,12 @@
     width: 100%;    
 }
 .d-flex {
-    // margin-left: 1rem;
+    margin: 0;
+    align-items: center;
     padding: 0;
     white-space: nowrap;
 }
 .photo {
-    // width: 4rem;
     height: 3rem;
     margin-right: 1rem;
     margin-left: 1rem;
@@ -23,49 +23,50 @@
     margin-right: 1rem;
 }
 .navbar-light .navbar-nav .nav-link {
-    // background-color: #fffff555;
     font-size: 1.25rem;
     color: black;
 }
 .navbar-expand-lg .navbar-collapse {
-    // background-color: #fffff555;
     justify-content: flex-end;
-}
-.card-deck {
-    // background-color: #fffff555;
-    position: absolute;
-    z-index: 6666666;
-    left: calc(50% - 56rem / 2);
-    bottom: 2rem;
-    height: 13rem;
-}
-.card-text {
-    position: relative;
-    margin-bottom: 0;
-    margin-top: 0;
-    text-align: center;
-    top: 2rem;
-
-}
-.card-body {
-    height: 9rem;
-}
-.card {
-
-    background:linear-gradient(to right, #41E25F
-    , #7FB38E
-    );
-    width: 28rem;
 }
 .carousel {
     height: 93.5vh;
     overflow: hidden;
 }
-
-.btn-secondary {
-    margin:auto;
-    display:block;
+.wrapper {
+    height: 93.5vh;
+.button-wrapper {
+    display: flex;
+    position: relative;
+    bottom: 15rem;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    // flex-direction: column;
+    // left: -10rem;
+    justify-content: space-evenly;
+    
+    button{
+        background:linear-gradient(to right, #41E25F
+    , #7FB38E
+    );
+    z-index: 10;
+    border: none;
+    width: 20rem;
+    height: 9rem;
+    }
 }
+}
+.button-title {
+    display: flex;
+    justify-content: center;
+    color: white;
+    position: relative;
+    bottom: 15rem;
+    z-index: 5;
+    // background-color: grey;
+}
+
 .slideshow{
     img{
     height:10rem;
@@ -83,3 +84,33 @@
     , #7FB38E
     );
 }
+
+@media (max-width: 768px) {
+    .d-flex{
+        display: none!important;
+    }
+    
+}
+
+@media (max-width: 930px) {
+    .button-wrapper {
+           top: -25rem;
+    }
+}
+@media (max-width: 640px) {
+    .button-wrapper {
+        top: -30rem;
+    }
+}
+@media (max-width: 932px) {
+    .button-title {
+        bottom: 25rem;
+    }
+}
+
+@media (max-width: 640px) {
+    .button-title {
+        bottom: 30rem;
+    }
+}
+
