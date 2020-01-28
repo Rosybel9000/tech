@@ -1,0 +1,102 @@
+.opleidingen__title {
+    background: linear-gradient(to right, #41E25F, #7FB38E);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.opleidingen__icon {
+    background: linear-gradient(to right, #41E25F, #7FB38E);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-right: 0.5rem;
+}
+
+.opleidingen__aws {
+    padding: 10px;
+    box-shadow: 0px 0px 7px 5px rgba(65, 226, 95, 1);
+}
+
+.opleidingen__fullstack {
+    padding: 10px;
+
+    box-shadow: 0px 0px 7px 5px rgba(65, 226, 95, 1);
+}
+
+.opleidingen__subtitle {
+    font-weight: bold;
+
+    i {
+        color: rgb(122, 211, 147);
+        background-color: lightgray;
+        border-radius: 50%;
+        padding: 5px;
+    }
+}
+
+.accordion {
+
+    img {
+        height: 2rem;
+    }
+
+}
+
+.card-header {
+    text-align: center;
+    background: linear-gradient(to right, #7FB38E, #41E25F);
+    -webkit-appearance: unset !important;
+    cursor: help;
+
+    i {
+        transition: .5s;
+    }
+
+    &[aria-expanded="true"] {
+        i {
+            transform: rotate(180deg);
+        }
+    }
+
+    h5 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+
+        i {
+            position: absolute;
+            color: white;
+            right: 4%;
+            // -webkit-appearance: unset;
+        }
+    }
+
+
+}
+
+@media only screen and (max-width: 767px) {
+
+    .d-flex {
+        flex-direction: column;
+    }
+
+    .col-md-6 {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .col-md-6 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .opleidingen__specs {
+        text-align: center;
+    }
+}
